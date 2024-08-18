@@ -1,0 +1,22 @@
+#--estimates-view {
+  width: calc(100vw - 234px);
+  height: calc(100vh - 44px);
+  background-color: #202124;
+
+  .estimates-head {
+    height: 44px;
+    border-bottom: #414144 1px solid;
+    background-color: #27272a;
+
+    > div {
+      height: 100%;
+      width: fit-content;
+      border-right: #414144 1px solid;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      color: #ffffff;
+    }
+  }
+}

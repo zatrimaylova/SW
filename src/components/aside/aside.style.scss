@@ -1,0 +1,53 @@
+#--aside-view {
+  width: 234px;
+  color: #a1a1aa;
+  background-color: #27272a;
+  height: calc(100vh - 44px);
+  border-right: #414144 solid 1px;
+
+  .aside-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 44px;
+    padding: 0 6px 0 20px;
+    align-items: center;
+    border-bottom: #414144 solid 1px;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        display: block;
+        font-size: 14px;
+
+        &:nth-child(2) {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .aside-list {
+    > div {
+      padding: 0 6px 0 20px;
+      height: 32px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      gap: 14px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #a1a1aa;
+      }
+
+      span {
+        line-height: 32px;
+        color: #ffffff;
+      }
+    }
+  }
+}
