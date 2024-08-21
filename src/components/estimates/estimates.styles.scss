@@ -19,4 +19,40 @@
       color: #ffffff;
     }
   }
+
+  .estimates-table {
+    padding: 0 10px;
+  }
+
+  .row-boxes {
+    height: 42px;
+    border-bottom: #414144 1px solid;
+    display: flex;
+    color: #a1a1aa;
+
+    > div {
+      display: flex;
+      align-items: center;
+
+      &:nth-child(1) {
+        flex-grow: 1;
+      }
+
+      &:nth-child(2) {
+        flex-grow: 7;
+      }
+
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        flex-grow: 2;
+      }
+    }
+  }
+
+  .row {
+    padding: 18px 12px;
+    border-bottom: #414144 1px solid;
+  }
 }
